@@ -5,6 +5,7 @@
 package edu.neu.coe.info6205.randomwalk;
 
 import java.util.Random;
+import java.util.Scanner;
 
 public class RandomWalk {
 
@@ -22,9 +23,11 @@ public class RandomWalk {
     private void move(int dx, int dy) {
         // TO BE IMPLEMENTED  do move
 
+        x = x + dx;
+        y = y + dy;
 
         // SKELETON
-         throw new RuntimeException("Not implemented");
+         //throw new RuntimeException("Not implemented");
         // END SOLUTION
     }
 
@@ -34,10 +37,13 @@ public class RandomWalk {
      * @param m the number of steps the drunkard takes
      */
     private void randomWalk(int m) {
-        // TO BE IMPLEMENTED 
+        // TO BE IMPLEMENTED
+        for(int i=0; i<m; i++){
+            randomMove();
+        }
 
 
-throw new RuntimeException("implementation missing");
+//throw new RuntimeException("implementation missing");
     }
 
     /**
@@ -56,10 +62,9 @@ throw new RuntimeException("implementation missing");
      * @return the (Euclidean) distance from the origin to the current position.
      */
     public double distance() {
-        // TO BE IMPLEMENTED 
-
+        // TO BE IMPLEMENTED
         // SKELETON
-         return 0.0;
+         return Math.sqrt(Math.pow(x,2) + Math.pow(y,2));
         // END SOLUTION
     }
 
@@ -85,9 +90,12 @@ throw new RuntimeException("implementation missing");
             throw new RuntimeException("Syntax: RandomWalk steps [experiments]");
         int m = Integer.parseInt(args[0]);
         int n = 30;
-        if (args.length > 1) n = Integer.parseInt(args[1]);
-        double meanDistance = randomWalkMulti(m, n);
-        System.out.println(m + " steps: " + meanDistance + " over " + n + " experiments");
+        //if (args.length > 1) n = Integer.parseInt(args[1]);
+        for (int i=0; i<=110; i++) {
+            m = i+1;
+            double meanDistance = randomWalkMulti(m, n);
+            System.out.println(m + " steps: " + meanDistance + " over " + n + " experiments");
+        }
     }
 
 }
