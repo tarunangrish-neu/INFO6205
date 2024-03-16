@@ -1,0 +1,381 @@
+/Library/Java/JavaVirtualMachines/jdk-11.0.16.1.jdk/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=51840:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8 -classpath /Users/tarunangrish/Desktop/INFO6205/target/classes:/Users/tarunangrish/.m2/repository/com/phasmidsoftware/args_2.13/1.0.3/args_2.13-1.0.3.jar:/Users/tarunangrish/.m2/repository/org/scala-lang/scala-library/2.13.7/scala-library-2.13.7.jar:/Users/tarunangrish/.m2/repository/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2.jar:/Users/tarunangrish/.m2/repository/com/phasmidsoftware/number_2.13/1.0.12/number_2.13-1.0.12.jar:/Users/tarunangrish/.m2/repository/com/phasmidsoftware/flog_2.13/1.0.8/flog_2.13-1.0.8.jar:/Users/tarunangrish/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/tarunangrish/.m2/repository/com/phasmidsoftware/matchers_2.13/1.0.5/matchers_2.13-1.0.5.jar:/Users/tarunangrish/.m2/repository/org/scala-lang/scala-compiler/2.13.6/scala-compiler-2.13.6.jar:/Users/tarunangrish/.m2/repository/org/scala-lang/scala-reflect/2.13.6/scala-reflect-2.13.6.jar:/Users/tarunangrish/.m2/repository/org/jline/jline/3.19.0/jline-3.19.0.jar:/Users/tarunangrish/.m2/repository/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar:/Users/tarunangrish/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/tarunangrish/.m2/repository/org/apache/logging/log4j/log4j-api/2.19.0/log4j-api-2.19.0.jar:/Users/tarunangrish/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/tarunangrish/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/tarunangrish/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/tarunangrish/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/tarunangrish/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/tarunangrish/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/tarunangrish/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/tarunangrish/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/tarunangrish/.m2/repository/org/ini4j/ini4j/0.5.4/ini4j-0.5.4.jar edu.neu.coe.info6205.util.SortBenchmark
+Instrumenting helper for merge sort with 2 elements
+StatPack {hits: 2, normalized=1.443; copies: 0, normalized=0.000; inversions: <unset>; swaps: 0, normalized=0.000; fixes: 0, normalized=0.000; compares: 1, normalized=0.721}
+Array Size: 2
+Compares: 1
+Worst Compares: 7
+Execution Time: 0.110125 milliseconds
+
+Instrumenting helper for merge sort with 4 elements
+StatPack {hits: 10, normalized=1.803; copies: 0, normalized=0.000; inversions: <unset>; swaps: 1, normalized=0.180; fixes: 1, normalized=0.180; compares: 4, normalized=0.721}
+Array Size: 4
+Compares: 4
+Worst Compares: 17
+Execution Time: 0.017375 milliseconds
+
+Instrumenting helper for merge sort with 8 elements
+StatPack {hits: 34, normalized=2.044; copies: 8, normalized=0.481; inversions: <unset>; swaps: 2, normalized=0.120; fixes: 12, normalized=0.721; compares: 14, normalized=0.842}
+Array Size: 8
+Compares: 14
+Worst Compares: 41
+Execution Time: 0.226083 milliseconds
+
+Instrumenting helper for merge sort with 16 elements
+StatPack {hits: 118, normalized=2.660; copies: 32, normalized=0.721; inversions: <unset>; swaps: 10, normalized=0.225; fixes: 60, normalized=1.353; compares: 46, normalized=1.037}
+Array Size: 16
+Compares: 46
+Worst Compares: 97
+Execution Time: 0.047208 milliseconds
+
+Instrumenting helper for merge sort with 32 elements
+StatPack {hits: 308, normalized=2.777; copies: 96, normalized=0.866; inversions: <unset>; swaps: 22, normalized=0.198; fixes: 244, normalized=2.200; compares: 125, normalized=1.127}
+Array Size: 32
+Compares: 125
+Worst Compares: 225
+Execution Time: 0.306958 milliseconds
+
+Instrumenting helper for merge sort with 64 elements
+StatPack {hits: 742, normalized=2.788; copies: 256, normalized=0.962; inversions: <unset>; swaps: 43, normalized=0.162; fixes: 1,054, normalized=3.960; compares: 306, normalized=1.150}
+Array Size: 64
+Compares: 306
+Worst Compares: 513
+Execution Time: 0.406083 milliseconds
+
+Instrumenting helper for merge sort with 128 elements
+StatPack {hits: 1,790, normalized=2.882; copies: 640, normalized=1.030; inversions: <unset>; swaps: 101, normalized=0.163; fixes: 4,224, normalized=6.801; compares: 751, normalized=1.209}
+Array Size: 128
+Compares: 751
+Worst Compares: 1153
+Execution Time: 0.881958 milliseconds
+
+Instrumenting helper for merge sort with 256 elements
+StatPack {hits: 4,094, normalized=2.884; copies: 1,536, normalized=1.082; inversions: <unset>; swaps: 198, normalized=0.139; fixes: 15,066, normalized=10.613; compares: 1,747, normalized=1.231}
+Array Size: 256
+Compares: 1747
+Worst Compares: 2561
+Execution Time: 1.043625 milliseconds
+
+Instrumenting helper for merge sort with 512 elements
+StatPack {hits: 9,256, normalized=2.898; copies: 3,584, normalized=1.122; inversions: <unset>; swaps: 406, normalized=0.127; fixes: 63,042, normalized=19.737; compares: 4,008, normalized=1.255}
+Array Size: 512
+Compares: 4008
+Worst Compares: 5633
+Execution Time: 1.363458 milliseconds
+
+Instrumenting helper for merge sort with 1,024 elements
+StatPack {hits: 20,476, normalized=2.885; copies: 8,192, normalized=1.154; inversions: <unset>; swaps: 784, normalized=0.110; fixes: 265,174, normalized=37.360; compares: 8,999, normalized=1.268}
+Array Size: 1024
+Compares: 8999
+Worst Compares: 12289
+Execution Time: 1.445875 milliseconds
+
+Instrumenting helper for merge sort with 2,048 elements
+StatPack {hits: 45,186, normalized=2.894; copies: 18,432, normalized=1.180; inversions: <unset>; swaps: 1,601, normalized=0.103; fixes: 1,027,759, normalized=65.818; compares: 20,083, normalized=1.286}
+Array Size: 2048
+Compares: 20083
+Worst Compares: 26625
+Execution Time: 2.038125 milliseconds
+
+Instrumenting helper for merge sort with 4,096 elements
+StatPack {hits: 98,440, normalized=2.889; copies: 40,960, normalized=1.202; inversions: <unset>; swaps: 3,160, normalized=0.093; fixes: 4,109,582, normalized=120.623; compares: 44,291, normalized=1.300}
+Array Size: 4096
+Compares: 44291
+Worst Compares: 57345
+Execution Time: 4.764208 milliseconds
+
+Instrumenting helper for merge sort with 8,192 elements
+StatPack {hits: 212,858, normalized=2.884; copies: 90,112, normalized=1.221; inversions: <unset>; swaps: 6,205, normalized=0.084; fixes: 16,622,648, normalized=225.186; compares: 96,725, normalized=1.310}
+Array Size: 8192
+Compares: 96725
+Worst Compares: 122881
+Execution Time: 9.351459 milliseconds
+
+Instrumenting helper for merge sort with 16,384 elements
+StatPack {hits: 458,374, normalized=2.883; copies: 196,608, normalized=1.237; inversions: <unset>; swaps: 12,375, normalized=0.078; fixes: 67,058,665, normalized=421.776; compares: 209,716, normalized=1.319}
+Array Size: 16384
+Compares: 209716
+Worst Compares: 262145
+Execution Time: 22.561917 milliseconds
+
+Instrumenting helper for merge sort with 32,768 elements
+StatPack {hits: 981,806, normalized=2.882; copies: 425,984, normalized=1.250; inversions: <unset>; swaps: 24,619, normalized=0.072; fixes: 266,987,031, normalized=783.652; compares: 452,145, normalized=1.327}
+Array Size: 32768
+Compares: 452145
+Worst Compares: 557057
+Execution Time: 77.79 milliseconds
+
+Instrumenting helper for merge sort with 65,536 elements
+StatPack {hits: 2,094,848, normalized=2.882; copies: 917,504, normalized=1.262; inversions: <unset>; swaps: 49,305, normalized=0.068; fixes: 1,073,181,851, normalized=1476.549; compares: 969,908, normalized=1.334}
+Array Size: 65536
+Compares: 969908
+Worst Compares: 1179649
+Execution Time: 188.319583 milliseconds
+
+Instrumenting helper for merge sort with 131,072 elements
+StatPack {hits: 4,451,006, normalized=2.882; copies: 1,966,080, normalized=1.273; inversions: <unset>; swaps: 98,329, normalized=0.064; fixes: -7,437,960, normalized=-4.816; compares: 2,070,822, normalized=1.341}
+Array Size: 131072
+Compares: 2070822
+Worst Compares: 2490369
+Execution Time: 319.556042 milliseconds
+
+Instrumenting helper for merge sort with 262,144 elements
+StatPack {hits: 9,425,654, normalized=2.882; copies: 4,194,304, normalized=1.282; inversions: <unset>; swaps: 196,456, normalized=0.060; fixes: -12,943,766, normalized=-3.958; compares: 4,403,444, normalized=1.346}
+Array Size: 262144
+Compares: 4403444
+Worst Compares: 5242881
+Execution Time: 249.591459 milliseconds
+
+Instrumenting helper for quick sort with 2 elements
+StatPack {hits: 2, normalized=1.443; copies: 0, normalized=0.000; inversions: <unset>; swaps: 0, normalized=0.000; fixes: 0, normalized=0.000; compares: 1, normalized=0.721}
+Array Size: 2
+Compares: 1
+Worst Compares: 7
+Execution Time: 0.04725 milliseconds
+
+Instrumenting helper for quick sort with 4 elements
+StatPack {hits: 10, normalized=1.803; copies: 0, normalized=0.000; inversions: <unset>; swaps: 1, normalized=0.180; fixes: 1, normalized=0.180; compares: 4, normalized=0.721}
+Array Size: 4
+Compares: 4
+Worst Compares: 17
+Execution Time: 0.005125 milliseconds
+
+Instrumenting helper for quick sort with 8 elements
+StatPack {hits: 63, normalized=3.787; copies: 0, normalized=0.000; inversions: <unset>; swaps: 11, normalized=0.661; fixes: 12, normalized=0.721; compares: 22, normalized=1.322}
+Array Size: 8
+Compares: 22
+Worst Compares: 41
+Execution Time: 3.751083 milliseconds
+
+Instrumenting helper for quick sort with 16 elements
+StatPack {hits: 155, normalized=3.494; copies: 0, normalized=0.000; inversions: <unset>; swaps: 25, normalized=0.564; fixes: 48, normalized=1.082; compares: 54, normalized=1.217}
+Array Size: 16
+Compares: 54
+Worst Compares: 97
+Execution Time: 0.046375 milliseconds
+
+Instrumenting helper for quick sort with 32 elements
+StatPack {hits: 336, normalized=3.030; copies: 0, normalized=0.000; inversions: <unset>; swaps: 51, normalized=0.460; fixes: 264, normalized=2.380; compares: 125, normalized=1.127}
+Array Size: 32
+Compares: 125
+Worst Compares: 225
+Execution Time: 0.1015 milliseconds
+
+Instrumenting helper for quick sort with 64 elements
+StatPack {hits: 956, normalized=3.592; copies: 0, normalized=0.000; inversions: <unset>; swaps: 147, normalized=0.552; fixes: 1,026, normalized=3.855; compares: 357, normalized=1.341}
+Array Size: 64
+Compares: 357
+Worst Compares: 513
+Execution Time: 1.176333 milliseconds
+
+Instrumenting helper for quick sort with 128 elements
+StatPack {hits: 2,693, normalized=4.336; copies: 0, normalized=0.000; inversions: <unset>; swaps: 435, normalized=0.700; fixes: 4,740, normalized=7.632; compares: 950, normalized=1.530}
+Array Size: 128
+Compares: 950
+Worst Compares: 1153
+Execution Time: 2.02925 milliseconds
+
+Instrumenting helper for quick sort with 256 elements
+StatPack {hits: 5,766, normalized=4.062; copies: 0, normalized=0.000; inversions: <unset>; swaps: 876, normalized=0.617; fixes: 16,961, normalized=11.948; compares: 2,213, normalized=1.559}
+Array Size: 256
+Compares: 2213
+Worst Compares: 2561
+Execution Time: 1.609542 milliseconds
+
+Instrumenting helper for quick sort with 512 elements
+StatPack {hits: 13,242, normalized=4.146; copies: 0, normalized=0.000; inversions: <unset>; swaps: 2,062, normalized=0.646; fixes: 64,844, normalized=20.302; compares: 4,932, normalized=1.544}
+Array Size: 512
+Compares: 4932
+Worst Compares: 5633
+Execution Time: 3.297167 milliseconds
+
+Instrumenting helper for quick sort with 1,024 elements
+StatPack {hits: 35,418, normalized=4.990; copies: 0, normalized=0.000; inversions: <unset>; swaps: 5,754, normalized=0.811; fixes: 358,788, normalized=50.549; compares: 12,271, normalized=1.729}
+Array Size: 1024
+Compares: 12271
+Worst Compares: 12289
+Execution Time: 10.412917 milliseconds
+
+Instrumenting helper for quick sort with 2,048 elements
+StatPack {hits: 66,419, normalized=4.253; copies: 0, normalized=0.000; inversions: <unset>; swaps: 10,194, normalized=0.653; fixes: 1,068,638, normalized=68.436; compares: 25,356, normalized=1.624}
+Array Size: 2048
+Compares: 25356
+Worst Compares: 26625
+Execution Time: 12.415709 milliseconds
+
+Instrumenting helper for quick sort with 4,096 elements
+StatPack {hits: 154,188, normalized=4.526; copies: 0, normalized=0.000; inversions: <unset>; swaps: 24,118, normalized=0.708; fixes: 4,749,482, normalized=139.405; compares: 56,903, normalized=1.670}
+Array Size: 4096
+Compares: 56903
+Worst Compares: 57345
+Execution Time: 75.340458 milliseconds
+
+Instrumenting helper for quick sort with 8,192 elements
+StatPack {hits: 323,119, normalized=4.377; copies: 0, normalized=0.000; inversions: <unset>; swaps: 50,008, normalized=0.677; fixes: 18,043,652, normalized=244.436; compares: 121,007, normalized=1.639}
+Array Size: 8192
+Compares: 121007
+Worst Compares: 122881
+Execution Time: 435.109416 milliseconds
+
+Instrumenting helper for quick sort with 16,384 elements
+StatPack {hits: 762,729, normalized=4.797; copies: 0, normalized=0.000; inversions: <unset>; swaps: 118,266, normalized=0.744; fixes: 91,584,493, normalized=576.035; compares: 283,294, normalized=1.782}
+Array Size: 16384
+Compares: 283294
+Worst Compares: 262145
+Execution Time: 1774.810125 milliseconds
+
+Instrumenting helper for quick sort with 32,768 elements
+StatPack {hits: 1,535,425, normalized=4.507; copies: 0, normalized=0.000; inversions: <unset>; swaps: 224,491, normalized=0.659; fixes: 307,631,542, normalized=902.951; compares: 617,783, normalized=1.813}
+Array Size: 32768
+Compares: 617783
+Worst Compares: 557057
+Execution Time: 4382.970125 milliseconds
+
+Instrumenting helper for quick sort with 65,536 elements
+StatPack {hits: 3,318,893, normalized=4.566; copies: 0, normalized=0.000; inversions: <unset>; swaps: 479,146, normalized=0.659; fixes: 1,179,377,971, normalized=1622.660; compares: 1,342,479, normalized=1.847}
+Array Size: 65536
+Compares: 1342479
+Worst Compares: 1179649
+Execution Time: 16280.369083 milliseconds
+
+Instrumenting helper for quick sort with 131,072 elements
+StatPack {hits: 7,064,576, normalized=4.574; copies: 0, normalized=0.000; inversions: <unset>; swaps: 943,345, normalized=0.611; fixes: 1,510,825,791, normalized=978.205; compares: 3,139,105, normalized=2.032}
+Array Size: 131072
+Compares: 3139105
+Worst Compares: 2490369
+Execution Time: 99482.387083 milliseconds
+
+Instrumenting helper for quick sort with 262,144 elements
+StatPack {hits: 16,328,396, normalized=4.992; copies: 0, normalized=0.000; inversions: <unset>; swaps: 1,972,332, normalized=0.603; fixes: 895,488,190, normalized=273.793; compares: 8,090,806, normalized=2.474}
+Array Size: 262144
+Compares: 8090806
+Worst Compares: 5242881
+Execution Time: 230907.203958 milliseconds
+
+Instrumenting helper for heap sort with 2 elements
+StatPack {hits: 10, normalized=7.213; copies: 0, normalized=0.000; inversions: <unset>; swaps: 2, normalized=1.443; fixes: 0, normalized=0.000; compares: 1, normalized=0.721}
+Array Size: 2
+Compares: 1
+Worst Compares: 7
+Execution Time: 0.057208 milliseconds
+
+Instrumenting helper for heap sort with 4 elements
+StatPack {hits: 40, normalized=7.213; copies: 0, normalized=0.000; inversions: <unset>; swaps: 7, normalized=1.262; fixes: 3, normalized=0.541; compares: 6, normalized=1.082}
+Array Size: 4
+Compares: 6
+Worst Compares: 17
+Execution Time: 0.00675 milliseconds
+
+Instrumenting helper for heap sort with 8 elements
+StatPack {hits: 144, normalized=8.656; copies: 0, normalized=0.000; inversions: <unset>; swaps: 22, normalized=1.322; fixes: 28, normalized=1.683; compares: 28, normalized=1.683}
+Array Size: 8
+Compares: 28
+Worst Compares: 41
+Execution Time: 0.011208 milliseconds
+
+Instrumenting helper for heap sort with 16 elements
+StatPack {hits: 362, normalized=8.160; copies: 0, normalized=0.000; inversions: <unset>; swaps: 50, normalized=1.127; fixes: 126, normalized=2.840; compares: 81, normalized=1.826}
+Array Size: 16
+Compares: 81
+Worst Compares: 97
+Execution Time: 0.085 milliseconds
+
+Instrumenting helper for heap sort with 32 elements
+StatPack {hits: 990, normalized=8.927; copies: 0, normalized=0.000; inversions: <unset>; swaps: 134, normalized=1.208; fixes: 628, normalized=5.663; compares: 227, normalized=2.047}
+Array Size: 32
+Compares: 227
+Worst Compares: 225
+Execution Time: 0.088291 milliseconds
+
+Instrumenting helper for heap sort with 64 elements
+StatPack {hits: 2,472, normalized=9.287; copies: 0, normalized=0.000; inversions: <unset>; swaps: 331, normalized=1.244; fixes: 2,741, normalized=10.298; compares: 574, normalized=2.157}
+Array Size: 64
+Compares: 574
+Worst Compares: 513
+Execution Time: 0.363416 milliseconds
+
+Instrumenting helper for heap sort with 128 elements
+StatPack {hits: 5,970, normalized=9.613; copies: 0, normalized=0.000; inversions: <unset>; swaps: 789, normalized=1.270; fixes: 11,825, normalized=19.040; compares: 1,407, normalized=2.265}
+Array Size: 128
+Compares: 1407
+Worst Compares: 1153
+Execution Time: 0.505792 milliseconds
+
+Instrumenting helper for heap sort with 256 elements
+StatPack {hits: 13,944, normalized=9.823; copies: 0, normalized=0.000; inversions: <unset>; swaps: 1,828, normalized=1.288; fixes: 49,546, normalized=34.902; compares: 3,316, normalized=2.336}
+Array Size: 256
+Compares: 3316
+Worst Compares: 2561
+Execution Time: 1.10525 milliseconds
+
+Instrumenting helper for heap sort with 512 elements
+StatPack {hits: 31,924, normalized=9.995; copies: 0, normalized=0.000; inversions: <unset>; swaps: 4,160, normalized=1.302; fixes: 194,878, normalized=61.013; compares: 7,642, normalized=2.393}
+Array Size: 512
+Compares: 7642
+Worst Compares: 5633
+Execution Time: 3.363459 milliseconds
+
+Instrumenting helper for heap sort with 1,024 elements
+StatPack {hits: 72,068, normalized=10.154; copies: 0, normalized=0.000; inversions: <unset>; swaps: 9,347, normalized=1.317; fixes: 792,359, normalized=111.634; compares: 17,340, normalized=2.443}
+Array Size: 1024
+Compares: 17340
+Worst Compares: 12289
+Execution Time: 9.030667 milliseconds
+
+Instrumenting helper for heap sort with 2,048 elements
+StatPack {hits: 160,468, normalized=10.276; copies: 0, normalized=0.000; inversions: <unset>; swaps: 20,733, normalized=1.328; fixes: 3,139,583, normalized=201.059; compares: 38,768, normalized=2.483}
+Array Size: 2048
+Compares: 38768
+Worst Compares: 26625
+Execution Time: 117.714542 milliseconds
+
+Instrumenting helper for heap sort with 4,096 elements
+StatPack {hits: 353,750, normalized=10.383; copies: 0, normalized=0.000; inversions: <unset>; swaps: 45,582, normalized=1.338; fixes: 12,592,198, normalized=369.602; compares: 85,711, normalized=2.516}
+Array Size: 4096
+Compares: 85711
+Worst Compares: 57345
+Execution Time: 121.382542 milliseconds
+
+Instrumenting helper for heap sort with 8,192 elements
+StatPack {hits: 772,514, normalized=10.465; copies: 0, normalized=0.000; inversions: <unset>; swaps: 99,229, normalized=1.344; fixes: 50,596,929, normalized=685.434; compares: 187,799, normalized=2.544}
+Array Size: 8192
+Compares: 187799
+Worst Compares: 122881
+Execution Time: 404.373834 milliseconds
+
+Instrumenting helper for heap sort with 16,384 elements
+StatPack {hits: 1,675,752, normalized=10.540; copies: 0, normalized=0.000; inversions: <unset>; swaps: 214,835, normalized=1.351; fixes: 202,477,464, normalized=1273.513; compares: 408,206, normalized=2.567}
+Array Size: 16384
+Compares: 408206
+Worst Compares: 262145
+Execution Time: 1530.241875 milliseconds
+
+Instrumenting helper for heap sort with 32,768 elements
+StatPack {hits: 3,614,050, normalized=10.608; copies: 0, normalized=0.000; inversions: <unset>; swaps: 462,446, normalized=1.357; fixes: 814,150,552, normalized=2389.671; compares: 882,133, normalized=2.589}
+Array Size: 32768
+Compares: 882133
+Worst Compares: 557057
+Execution Time: 6817.396167 milliseconds
+
+Instrumenting helper for heap sort with 65,536 elements
+StatPack {hits: 7,751,786, normalized=10.665; copies: 0, normalized=0.000; inversions: <unset>; swaps: 990,382, normalized=1.363; fixes: -1,043,673,187, normalized=-1435.949; compares: 1,895,129, normalized=2.607}
+Array Size: 65536
+Compares: 1895129
+Worst Compares: 1179649
+Execution Time: 30941.885 milliseconds
+
+Instrumenting helper for heap sort with 131,072 elements
+StatPack {hits: 16,548,734, normalized=10.715; copies: 0, normalized=0.000; inversions: <unset>; swaps: 2,111,222, normalized=1.367; fixes: 102,925,940, normalized=66.641; compares: 4,051,923, normalized=2.623}
+Array Size: 131072
+Compares: 4051923
+Worst Compares: 2490369
+Execution Time: 117268.750667 milliseconds
+
+Instrumenting helper for heap sort with 262,144 elements
+StatPack {hits: 35,196,072, normalized=10.761; copies: 0, normalized=0.000; inversions: <unset>; swaps: 4,484,941, normalized=1.371; fixes: 442,129,589, normalized=135.180; compares: 8,628,154, normalized=2.638}
+Array Size: 262144
+Compares: 8628154
+Worst Compares: 5242881
+Execution Time: 450734.890583 milliseconds
+
+
+Process finished with exit code 0
